@@ -73,6 +73,7 @@ main{
     min-width: 400px;
     margin: auto;
     padding: 15px;
+    box-shadow: 0px 5px 6px 5px rgba(0, 0, 0, 0.233);
 }
 main h1{
     font-family: var(--tit);
@@ -93,6 +94,22 @@ main p{
     text-indent: 20px;
     line-height: 28px;
 }
+
 img{
     width: 100%;
 }
+.pq{
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+div.vid{
+    background-color: var(--cor6);
+    margin: 0px -15px 1px -15px;
+    position: relative;
+}
+div.vid>iframe{
+    position: absolute;
+}
+
+
