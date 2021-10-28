@@ -74,6 +74,8 @@ main{
     margin: auto;
     padding: 15px;
     box-shadow: 0px 5px 6px 5px rgba(0, 0, 0, 0.233);
+    margin-bottom: 22px;
+    border-radius: 0px 0px 9px 9px;
 }
 main h1{
     font-family: var(--tit);
@@ -89,10 +91,39 @@ main h2{
     background-image: linear-gradient(to right, var(--cor2),white);
     border-radius: 5px;
 }
+main h3{
+    font-size: 1.2em;
+    background-color: var(--cor5);
+    color: white;
+    margin: -15px -14px 4px -14px;
+    padding: 10px;
+    border-radius: 9px 9px 0px 0px;
+}
 main p{
     padding: 10px 10px 10px 10px;
     text-indent: 20px;
     line-height: 28px;
+}
+
+aside{
+    background-color: var(--cor2);
+    padding: 15px;
+    margin: 18px 7px 18px 7px;
+    border-radius: 9px;
+    box-shadow: 4px 4px 11px 7px rgba(0, 0, 0, 0.226);
+}
+aside p{
+    padding: 8px 8px 8px 8px;
+    text-indent: 20px;
+    line-height: 25px;
+}
+ul{
+    columns: 2;
+    list-style-position: inside;
+    padding: 10px;
+}
+li::before{
+    content: "✔️";
 }
 
 img{
@@ -104,12 +135,7 @@ img{
     margin: auto;
 }
 div.vid{
-    background-color: var(--cor6);
-    margin: 0px -15px 1px -15px;
-    position: relative;
-}
-div.vid>iframe{
-    position: absolute;
+    background-color: var(--cor5);
 }
 
 
